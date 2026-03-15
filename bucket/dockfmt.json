@@ -20,10 +20,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-amd64#/dockfmt.exe"
+        "url": "https://github.com/jessfraz/dockfmt/releases/download/v$version/dockfmt-windows-amd64#/dockfmt.exe"
       },
       "32bit": {
-        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-386#/dockfmt.exe"
+        "url": "https://github.com/jessfraz/dockfmt/releases/download/v$version/dockfmt-windows-386#/dockfmt.exe"
       }
     },
     "hash": {
