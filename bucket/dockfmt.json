@@ -5,25 +5,25 @@
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/jessfraz/dockfmt/releases/download/v0.3.3/dockfmt-windows-amd64",
+      "url": "https://github.com/jessfraz/dockfmt/releases/download/v0.3.3/dockfmt-windows-amd64#/dockfmt.exe",
       "hash": "dc16dca0dab0aa53afd4c0480ac2bf904424ff8464d4d2bf9700a08a8970ea99"
     },
     "32bit": {
-      "url": "https://github.com/jessfraz/dockfmt/releases/download/v0.3.3/dockfmt-windows-386",
+      "url": "https://github.com/jessfraz/dockfmt/releases/download/v0.3.3/dockfmt-windows-386#/dockfmt.exe",
       "hash": "e55b01cc4737d4138c2d3331422da3bc9d8bfaf8d7987914c8e228103cc157b2"
     }
   },
-  "bin": "dockfmt",
+  "bin": "dockfmt.exe",
   "checkver": {
     "url": "https://github.com/jessfraz/dockfmt"
   },
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-amd64"
+        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-amd64#/dockfmt.exe"
       },
       "32bit": {
-        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-386"
+        "url": "https://github.com/jessfraz/dockfmt/releases/download/$version/dockfmt-windows-386#/dockfmt.exe"
       }
     },
     "hash": {
