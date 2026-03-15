@@ -1,0 +1,27 @@
+{
+  "version": "4.0.33",
+  "description": "Dockerfile format and parser. Like `gofmt` but for Dockerfiles.",
+  "homepage": "https://github.com/xxnuo/MTranServer",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/xxnuo/MTranServer/releases/download/v4.0.33/mtranserver-4.0.33-windows-amd64.exe#/mtranserver.exe",
+      "hash": "dc16dca0dab0aa53afd4c0480ac2bf904424ff8464d4d2bf9700a08a8970ea99"
+    }
+  },
+  "bin": "mtranserver.exe",
+  "checkver": {
+    "url": "https://github.com/xxnuo/MTranServer"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/xxnuo/MTranServer/releases/download/v$version/mtranserver-$version-windows-amd64.exe#/mtranserver.exe"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
+
