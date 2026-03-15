@@ -14,9 +14,7 @@
     }
   },
   "bin": "dockfmt.exe",
-  "checkver": {
-    "url": "https://github.com/jessfraz/dockfmt"
-  },
+  "checkver": "github",
   "autoupdate": {
     "architecture": {
       "64bit": {
