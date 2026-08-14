@@ -1,0 +1,23 @@
+{
+    "version": "0.10.0",
+    "description": "language server that bridges the gap between languages, editors, and tooling",
+    "homepage": "https://github.com/atusy/kakehashi",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "hash": "86bfec938b4e8165e2b9f642781a1fb9b882d6f9b32bab34b048bc4c47ef66fb",
+            "url": "https://github.com/atusy/kakehashi/releases/download/v0.10.0/kakehashi-v0.10.0-x86_64-pc-windows-msvc.zip"
+        }
+    },
+    "bin": ["kakehashi.exe"],
+    "checkver": {
+        "github": "https://github.com/atusy/kakehashi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/atusy/kakehashi/releases/download/$version/kakehashi-$version-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
