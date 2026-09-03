@@ -4,7 +4,7 @@
     "homepage": "https://setuserfta.com/",
     "license": "Proprietary",
     "url": "https://setuserfta.com/SetUserFTA.zip",
-    "hash": "38ebbd43291df55115df2bee998980ba5b39b07a7067fcc02c9bb402189301dd",
+    "hash": "e9ab9029b2b186c326fa93107f2a9a9edca6fb3fc56e2249b8def38110e3cc5d",
     "bin": "SetUserFTA.exe",
     "checkver": {
         "url": "https://setuserfta.com/",
