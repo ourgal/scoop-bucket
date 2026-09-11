@@ -1,12 +1,12 @@
 {
-    "version": "2026.04.19",
+    "version": "2026.08.12",
     "description": "一款轻量、高效、功能强大的启动工具",
     "homepage": "https://github.com/zhugecaomao/ALTRun",
     "license": "GPL-3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhugecaomao/ALTRun/releases/download/2026.04.19/ALTRun_v2026.04.19.zip",
-            "hash": "36446b104ca2376f23ec2241eecb2bd954c5925f8fd055747eeb4f627153df47"
+            "url": "https://github.com/zhugecaomao/ALTRun/releases/download/2026.08.12/ALTRun_v2026.08.12.zip",
+            "hash": "7acaada57827d2a7771443d803a3644f3f8d94f858b0283bd3b22c7d206858a5"
         }
     },
     "bin": "ALTRun.exe",
