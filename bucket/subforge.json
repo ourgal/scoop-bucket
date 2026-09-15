@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
+  "version": "3.0.1",
+  "description": "A tools for partially converting multiple subscription to single singbox config.",
+  "homepage": "https://github.com/bitxwave/subforge",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/bitxwave/subforge/releases/download/v3.0.1/subforge-x86_64-pc-windows-msvc.zip",
+      "hash": "sha256:1ad8a0efd278642bd80e73adeda18612920747307df5573b78bffe2b0e52eece"
+    }
+  },
+  "bin": "subforge.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/bitxwave/subforge/releases/download/v$version/subforge-x86_64-pc-windows-msvc.zip"
+      }
+    }
+  }
+}
