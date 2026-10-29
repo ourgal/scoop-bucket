@@ -9,7 +9,7 @@
       "hash": "0448e0c88f072671e8bd73554fa133716306a2dbfdc9120ce5ac5fdafb1fe452"
     }
   },
-  "bin": [["CreditDaddy-Win-Portable-1.6.2.exe", "creditdaddy"]],
+  "shortcuts": [["CreditDaddy-Win-Portable-1.6.2.exe", "CreditDaddy"]],
   "checkver": {
     "url": "https://api.github.com/repos/techysy/CreditDaddy/releases/latest",
     "regex": "tag/v([\\d.]+)"
