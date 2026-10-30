@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/refs/heads/master/schema.json",
+    "version": "scls-73e6789f",
+    "description": "Word completion and snippets language server for the Helix editor (prebuilt binaries)",
+    "homepage": "https://github.com/ourgal/simple-completion-language-server",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ourgal/simple-completion-language-server/releases/download/scls-73e6789f/scls-73e6789f-x86_64-pc-windows-msvc.zip",
+            "hash": "3cdb39c883c56e3a38c588a90f560d39b8850c1430587b8779c9cea11d55f776",
+            "extract_dir": "scls-73e6789f-x86_64-pc-windows-msvc"
+        }
+    },
+    "bin": "simple-completion-language-server.exe",
+    "checkver": {
+        "github": "https://github.com/ourgal/simple-completion-language-server"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ourgal/simple-completion-language-server/releases/download/$version/scls-$version-x86_64-pc-windows-msvc.zip",
+                "extract_dir": "scls-$version-x86_64-pc-windows-msvc"
+            }
+        }
+    }
+}
