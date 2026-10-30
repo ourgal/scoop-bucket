@@ -1,0 +1,26 @@
+{
+    "version": "0.1.27",
+    "description": "CLI RSS/Atom feed reader inspired by Taskwarrior.",
+    "homepage": "https://github.com/kantord/blogtato",
+    "license": "MIT OR Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ourgal/blogtato/releases/download/v0.1.27/blogtato-v0.1.27-windows-x86_64.zip",
+            "hash": "b5ca209471a121eae06d5fbe48d13e50622ea28196438b6f32d3187bb429faf4"
+        }
+    },
+    "extract_dir": "blogtato-v0.1.27-windows-x86_64",
+    "bin": "blog.exe",
+    "checkver": {
+        "url": "https://github.com/ourgal/blogtato/releases/latest",
+        "regex": "/tree/v(\\S+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/ourgal/blogtato/releases/download/v$version/blogtato-v$version-windows-x86_64.zip"
+            }
+        },
+        "extract_dir": "blogtato-v$version-windows-x86_64"
+    }
+}
