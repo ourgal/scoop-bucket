@@ -1,12 +1,12 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.6",
     "description": "AI 编程工具多账号本地管理",
     "homepage": "https://github.com/techysy/CreditDaddy",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/techysy/CreditDaddy/releases/download/v1.6.5/CreditDaddy-Win-Portable-1.6.5.exe",
-            "hash": "dd659c4878825232f028a98751053982117a7e7f9ba3072e23b173d546663e94"
+            "url": "https://github.com/techysy/CreditDaddy/releases/download/v1.6.6/CreditDaddy-Win-Portable-1.6.6.exe",
+            "hash": "dd1dff33ec0441aeff4a145f37c4424945e8ddb418f9f038c85e5b8fa8b53a05"
         }
     },
     "shortcuts": [
