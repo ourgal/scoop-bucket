@@ -1,0 +1,21 @@
+{
+    "version": "0.1.15",
+    "description": "Turn static CLI commands into TUIs with ease",
+    "homepage": "https://github.com/jesseduffield/lazycli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jesseduffield/lazycli/releases/download/v0.1.15/lazycli-win-x64.tar.gz",
+            "hash": "f0f8e1ad8d4bc8289dead40bdf55816abbaa6d206942e124b350f1ab4ab968ca"
+        }
+    },
+    "bin": "lazycli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jesseduffield/lazycli/releases/download/v$version/lazycli-win-x64.tar.gz"
+            }
+        }
+    }
+}
