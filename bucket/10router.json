@@ -1,12 +1,12 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "本地智能 AI 路由网关与用量仪表盘",
     "homepage": "https://github.com/techysy/10router",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/techysy/10router/releases/download/v1.8.0/10Router-Win-Portable-1.8.0.exe",
-            "hash": "a51fcf1dd718bb7490b317fc11780153a2399aaa69c46fd4b905bf73406ba05a"
+            "url": "https://github.com/techysy/10router/releases/download/v1.8.1/10Router-Win-Portable-1.8.1.exe",
+            "hash": "9261261cfe814706a11f77f564f2cc10408ad049cf844c89ca64ad5846c4ea0f"
         }
     },
     "shortcuts": [
