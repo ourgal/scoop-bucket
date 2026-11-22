@@ -1,0 +1,24 @@
+{
+  "version": "0.1.2",
+  "description": "A fast, opinionated CLI that generates Git commit messages and reviews staged diffs using AI.",
+  "homepage": "https://github.com/russmckendrick/aicommit",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/russmckendrick/aicommit/releases/download/v0.1.2/aic-windows-amd64.exe",
+      "hash": "5dc46fcc86216956e2104b076d2a4a5cc17331fdb9a326565959b8cf15b23543"
+    }
+  },
+  "bin": [["aic-windows-amd64.exe", "aic"]],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/russmckendrick/aicommit/releases/download/v$version/aic-windows-amd64.exe"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
