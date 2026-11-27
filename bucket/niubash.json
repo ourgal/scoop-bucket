@@ -1,33 +1,28 @@
 {
-    "version": "1.5.2",
-    "description": "A simple and fast command-line tool for managing files and directories",
-    "homepage": "https://github.com/unixwin/niubash",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/unixwin/niubash/releases/download/v1.5.2/niubash-win-x64.zip",
-            "hash": "ac17f2fc70dafbd2cad9d08fedca5696ab2118aaef22a1719489c6526bfe241e"
-        }
-    },
-    "extract_dir": "niubash-v1.5.1-win-x64",
-    "bin": "niu.exe",
-    "shortcuts": [
-        [
-            "niu.exe",
-            "Niubash"
-        ]
-    ],
-    "checkver": {
-        "github": "https://github.com/unixwin/niubash"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/unixwin/niubash/releases/download/v$version/niubash-win-x64.zip",
-                "hash": {
-                    "url": "$url.sha256"
-                }
-            }
-        }
+  "version": "1.5.2",
+  "description": "A simple and fast command-line tool for managing files and directories",
+  "homepage": "https://github.com/unixwin/niubash",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/unixwin/niubash/releases/download/v1.5.2/niubash-win-x64.zip",
+      "hash": "ac17f2fc70dafbd2cad9d08fedca5696ab2118aaef22a1719489c6526bfe241e"
     }
+  },
+  "extract_dir": "niubash-v1.5.2-win-x64",
+  "bin": "niu.exe",
+  "shortcuts": [["niu.exe", "Niubash"]],
+  "checkver": {
+    "github": "https://github.com/unixwin/niubash"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/unixwin/niubash/releases/download/v$version/niubash-win-x64.zip",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
 }
